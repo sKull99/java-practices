@@ -39,7 +39,6 @@ public class Application {
 			retryText=false;
 			System.out.print("Quiere subir o bajar? ");
 			aPiso=object.readText();
-			System.out.println(aPiso);
 			if (aPiso.equals("subir") || aPiso.equals("SUBIR")) {
 				for (int i = aPosicion; i < piso.length; i++) {
 					System.out.println("Piso: "+ piso[i]);
