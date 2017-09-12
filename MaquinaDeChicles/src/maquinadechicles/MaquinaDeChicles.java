@@ -95,7 +95,7 @@ public class MaquinaDeChicles {
             } else {
                 
                 /* Retornamos las monedas y salimos */
-                System.out.println("Devolver momendas: " + money);
+                System.out.println("Devolver monedas: " + money);
                 money = 0;                
                 gira = "n";
                 
