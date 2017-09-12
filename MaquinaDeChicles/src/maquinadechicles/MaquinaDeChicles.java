@@ -77,7 +77,7 @@ public class MaquinaDeChicles {
                 gira = objManivela.girar();
                 if (gira.equals("e") || gira.equals("E")) {
                     
-                    System.out.println("Devolver momendas: " + money);
+                    System.out.println("Devolver monedas: " + money);
                     money = 0;
                     gira = "s";
                     System.out.println();
